@@ -94,16 +94,16 @@ main {background-color:white;
 .post p {font-family: 'Roboto', sans-serif;}
 
 .contact-info {padding: 20px;
-       background-color: #f8f9fa;
-       margin-top:5px;
-       margin-bottom:5px;
-       max-width: 1000px;
-       border-radius: 8px;
-       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-       font-size:16px;
-       line-height:22px;
-      font-family: 'Inter', sans-serif;
-  text-align: center;}
+       	       background-color: #f8f9fa;
+ 	       margin-top:5px;
+               margin-bottom:5px;
+               max-width: 1000px;
+      	       border-radius: 8px;
+     	       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    	       font-size:16px;
+       	       line-height:22px;
+    	       font-family: 'Inter', sans-serif;
+    	       text-align: center;}
 
 .contact-icons {display: flex;
   	       gap: 20px;
@@ -115,16 +115,16 @@ main {background-color:white;
 	       text-align:center;}
 
 .map-section {padding: 20px;
-       background-color: #f8f9fa;
-       margin-top:5px;
-       margin-bottom:5px;
-       max-width: 1000px;
-       border-radius: 8px;
-       box-shadow: 0 0 10px rgba(0,0,0,0.1);
-       font-size:16px;
-       line-height:22px;
-      font-family: 'Inter', sans-serif;
-  	text-align: center;}
+     	      background-color: #f8f9fa;
+    	      margin-top:5px;
+    	      margin-bottom:5px;
+   	      max-width: 1000px;
+              border-radius: 8px;
+      	      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      	      font-size:16px;
+     	      line-height:22px;
+ 	      font-family: 'Inter', sans-serif;
+              text-align: center;}
 
 
 /* Sidebar Section */
@@ -135,17 +135,16 @@ main {background-color:white;
 	  margin-top:5px;
 	  margin-bottom:5px; }
 
-.contact form {
-      position:center;
-      padding: 20px;
-      background-color: white;
-      margin:auto;
-      max-width: 1000px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      line-height:1.8;
-      font-size:18px;
-      text-align:justify;}
+.contact form {position:center;
+     	       padding: 20px;
+	       background-color: white;
+	       margin:auto;
+	       max-width: 1000px;
+	       border-radius: 8px;
+	       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+ 	       line-height:1.8;
+  	       font-size:18px;
+ 	       text-align:justify;}
 
 /* Main-Footer Section */
 .main-footer {background-color:#b3d9ff;

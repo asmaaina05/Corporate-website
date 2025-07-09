@@ -46,7 +46,7 @@ nav {display: block;
      z-index: 1000;}
 
 .nav-main {background-color:#b3d9ff;
-	position: sticky;   
+	   position: sticky;   
 	   top: 0;
            margin-top: 0;
   	   margin-bottom: 0;

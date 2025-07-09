@@ -75,69 +75,53 @@ nav {display: block;
 
 /* Main Section */
 main {background-color:white; 
-	width:70%;
-	float:left; }
-.post {
-      padding: 20px;
-      background-color: #f8f9fa;
-      margin-top:5px;
-      margin-bottom:5px;
-      max-width: 1000px;
-      border-radius: 8px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      font-size:16px;
-      line-height:20px;
-      font-family: 'Inter', sans-serif;
-    }
+      width:70%;
+      float:left; }
 
-.read-more-toggle {
-  display: none;
-}
+.post {padding: 20px;
+       background-color: #f8f9fa;
+       margin-top:5px;
+       margin-bottom:5px;
+       max-width: 1000px;
+       border-radius: 8px;
+       box-shadow: 0 0 10px rgba(0,0,0,0.1);
+       font-size:16px;
+       line-height:20px;
+       font-family: 'Inter', sans-serif;}
 
-.read-more-content {
-  display: none;
-  font-family: 'Roboto', sans-serif;
-}
+.read-more-toggle {display: none;}
 
-.read-more-toggle:checked + p .read-more-content {
-  display: inline;
-}
+.read-more-content {display: none;
+  		    font-family: 'Roboto', sans-serif;}
 
-.read-more-label {
-  display: inline-block;
-  color: #b3d9ff;
-  cursor: pointer;
-  font-weight: bold;
-}
+.read-more-toggle:checked + p .read-more-content {display: inline;}
 
-.read-more-toggle:not(:checked) + p .read-more-content {
-  display: none;
-}
+.read-more-label {display: inline-block;
+  		  color: #b3d9ff;
+  		  cursor: pointer;
+  		  font-weight: bold;}
 
-.read-more-toggle + p + .read-more-label::before {
-  content: "Read More...";
-}
+.read-more-toggle:not(:checked) + p .read-more-content {display: none;}
 
-.read-more-toggle:checked + p + .read-more-label::before {
-  content: "Read Less...";
-}
+.read-more-toggle + p + .read-more-label::before {content: "Read More...";}
+
+.read-more-toggle:checked + p + .read-more-label::before {content: "Read Less...";}
 
 
 /* Sidebar Section */
 .sidebar {background-color:#b3d9ff;
-	width:25%;
-	float:right;
-	padding:14px;
-	margin-top:5px;
-	margin-bottom:5px;
-	line-height:20px; }
+	  width:25%;
+	  float:right;
+	  padding:14px;
+	  margin-top:5px;
+	  margin-bottom:5px;
+	  line-height:20px; }
 
 .form {line-height:30px;}
 
 
 /* Main-Footer Section */
 .main-footer {background-color:#b3d9ff;
-	clear:both;
-	text-align:center;
-	padding:5px;
-	}
+	      clear:both;
+	      text-align:center;
+	      padding:5px;}

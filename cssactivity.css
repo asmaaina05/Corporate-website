@@ -74,82 +74,59 @@ nav {display: block;
                    text-decoration: none;}
 
 /*MAIN*/
-.highlight-section {
-  background: #fff;
-  text-align: center;
-  margin-bottom: 10px;
-}
+.highlight-section {background: #fff;
+  		    text-align: center;
+  		    margin-bottom: 10px;}
 
-.highlight-section h2 {
-  font-size: 2em;
-  color: #0073e6;
-  margin-bottom: 30px;
-}
+.highlight-section h2 {font-size: 2em;
+  		       color: #0073e6;
+  		       margin-bottom: 30px;}
 
-.highlight-grid {
-  flex-direction: column;
-  height: 100%;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  padding: 0 20px;
-}
+.highlight-grid {flex-direction: column;
+  		 height: 100%;
+  		 display: grid;
+  	 	 grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  		 gap: 20px;
+  		 padding:20px;}
 
-.highlight-item {
-  background: #f0f0f0;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: transform 0.3s;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between
-}
+.highlight-item {background: #f0f0f0;
+  		 border-radius: 10px;
+   		 overflow: hidden;
+  		 transition: transform 0.3s;
+  		 flex: 1;
+  		 display: flex;
+  		 flex-direction: column;
+  		 justify-content: space-between}
 
-.highlight-item:hover {
-  transform: scale(1.03);
-}
+.highlight-item:hover {transform: scale(1.03);}
 
-.highlight-item img {
-  width: 100%;
-  height: 200px;
-  object-fit: cover;
-}
+.highlight-item img {width: 100%;
+		     height: 200px;
+  		     object-fit: cover;}
 
-.caption {
-  padding: 15px;
-  text-align: left;
-}
+.caption {padding: 15px;
+  	  text-align: left;}
 
-.caption p {
-  margin: 0;
-  font-size: 0.9em;
-  color: #666;
-}
+.caption p {margin: 0;
+  	    font-size: 10px;
+    	    color: #666;}
 
-.caption h3 {
-  font-size: 1.1em;
-  color: #333;
-  margin-top: 5px;
-}
+.caption h3 {font-size: 15px;
+  	     color: #333;
+  	     margin-top: 5px;}
 
-.button {
-  display: inline-block;
-  background-color: #b3d9ff;
-  color: black;
-  padding: 0.5em 1em; /* Smaller padding = smaller button */
-  text-decoration: none;
-  border-radius: 5px;
-  text-align: center;
-  margin:10px auto; /* Center horizontally + space at bottom */
-  width: fit-content; /* Auto width based on content */
-}
-
-
+.button {display: inline-block;
+  	 background-color: #b3d9ff;
+  	 color: black;
+  	 padding: 0.5em 1em;
+  	 text-decoration: none;
+ 	 border-radius: 5px;
+   	 text-align: center;
+ 	 margin:10px auto; 
+  	 width: fit-content;}
 
 /* Main-Footer Section */
 .main-footer {background-color:#b3d9ff;
-	clear:both;
-	text-align:center;
-	padding:5px;
-	}
+	      clear:both;
+	      text-align:center;
+	      padding:5px;}
