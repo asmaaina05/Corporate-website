@@ -1,0 +1,68 @@
+/* CSS ABOUT ME*/
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #000;
+}
+
+.container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #b3d9ff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.profile {
+  text-align: center;
+  background-color:#b3d9ff;
+  padding: 30px;
+  border-radius: 10px 10px 0 0;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  border: 4px solid #fff;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+h1 {
+  margin: 0;
+  color: #fff;
+}
+
+.info {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+}
+
+.info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.info li {
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+.info li:last-child {
+  border-bottom: none;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,143 @@
+/*CSS DONATION*/
+
+/* Master Background */
+.page {background-color:white; 
+	width:80%; 
+	margin:auto;
+	overflow:visible; }
+
+/* Main-Header Section */
+.main-header {display: flex;
+	      justify-content: space-between;
+	      align-items: center;
+	      padding: 10px;
+	      background-color:white;
+	      margin: 0;}
+
+.header-left {display: flex;
+	      align-items: center;
+	      gap: 20px;}
+
+.logo {width: 80px;
+       height: auto;}
+
+.title {font-family: "Copperplate", serif;
+   	position:relative;
+  	left:70px;
+  	font-size: 30px;
+  	line-height: 1.2;}
+
+.social-sites {display: flex;
+  	       gap: 10px;
+  	       list-style: none;
+  	       position:relative;
+  	       left:300px;
+  	       padding: 10px;
+	       margin: 0;}
+
+.social-sites li {display: flex;}
+
+
+
+/* Navigation Bar */
+nav {display: block;
+     width: 100%;
+     background-color: #b3d9ff;
+     z-index: 1000;}
+
+.nav-main {background-color:#b3d9ff;
+	   position: sticky;   
+	   top: 0;
+           margin-top: 0;
+  	   margin-bottom: 0;
+  	   text-align: center;
+  	   z-index: 1000;}
+
+.nav-main li {border-left: 1px solid #b3d9ff;
+	      display: inline-block;
+  	      text-align: left;}
+
+.nav-main li:first-child {border-left: none;}
+
+.nav-main li:last-child a {padding-right: 0;}
+
+.nav-main a {color: #292929;
+             display: inline-block;
+	     font-family: copperplate;
+	     font-weight: bold;
+             font-size:18px;
+             padding: 15px;
+	     text-decoration: none;}
+
+.nav-main a:hover {color: white;
+                   text-decoration: none;}
+
+
+/* Main Section */
+main {background-color:white; 
+	width:70%;
+	float:left; }
+.post {
+      padding: 20px;
+      background-color: #f8f9fa;
+      margin-top:5px;
+      margin-bottom:5px;
+      max-width: 1000px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      font-size:16px;
+      line-height:20px;
+      font-family: 'Inter', sans-serif;
+    }
+
+.read-more-toggle {
+  display: none;
+}
+
+.read-more-content {
+  display: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.read-more-toggle:checked + p .read-more-content {
+  display: inline;
+}
+
+.read-more-label {
+  display: inline-block;
+  color: #b3d9ff;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.read-more-toggle:not(:checked) + p .read-more-content {
+  display: none;
+}
+
+.read-more-toggle + p + .read-more-label::before {
+  content: "Read More...";
+}
+
+.read-more-toggle:checked + p + .read-more-label::before {
+  content: "Read Less...";
+}
+
+
+/* Sidebar Section */
+.sidebar {background-color:#b3d9ff;
+	width:25%;
+	float:right;
+	padding:14px;
+	margin-top:5px;
+	margin-bottom:5px;
+	line-height:20px; }
+
+.form {line-height:30px;}
+
+
+/* Main-Footer Section */
+.main-footer {background-color:#b3d9ff;
+	clear:both;
+	text-align:center;
+	padding:5px;
+	}
